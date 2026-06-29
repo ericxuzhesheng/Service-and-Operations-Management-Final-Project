@@ -91,20 +91,24 @@
 
 ```text
 .
-├── main.tex              # 论文 LaTeX 源文件（XeLaTeX 编译）
-├── references.bib        # BibTeX 参考文献
-├── OM_cover.pdf          # 课程论文封面（PDF）
-├── 01. Term Paper Requirement.pdf   # 作业要求
-├── 02. OM Cases.pdf                # 案例材料
-├── 03. 课程论文封面模板.docx       # 封面模板
-├── 04. Paper Grading Criteria.pdf  # 评分标准
-└── README.md             # 本文件
+├── paper/                           # 论文源文件
+│   ├── main.tex                     # LaTeX 正文（XeLaTeX 编译）
+│   ├── references.bib               # BibTeX 参考文献
+│   └── OM_cover.pdf                 # 课程论文封面
+├── materials/                       # 课程材料
+│   ├── 01. Term Paper Requirement.pdf   # 作业要求
+│   ├── 02. OM Cases.pdf                 # 案例材料
+│   ├── 03. 课程论文封面模板.docx         # 封面模板
+│   └── 04. Paper Grading Criteria.pdf   # 评分标准
+├── README.md                        # 本文件
+├── LICENSE                          # MIT 许可证
+└── .gitignore                       # Git 忽略规则
 ```
 
 ### 快速开始
 
 ```bash
-# 使用 XeLaTeX 编译（需运行两次以解析交叉引用）
+cd paper
 xelatex main.tex
 bibtex main
 xelatex main.tex
@@ -198,20 +202,24 @@ The paper proposes five integrated recommendations:
 
 ```text
 .
-├── main.tex              # Paper LaTeX source (compile with XeLaTeX)
-├── references.bib        # BibTeX bibliography
-├── OM_cover.pdf          # Course paper cover page (PDF)
-├── 01. Term Paper Requirement.pdf   # Assignment requirements
-├── 02. OM Cases.pdf                # Case study materials
-├── 03. 课程论文封面模板.docx       # Cover page template
-├── 04. Paper Grading Criteria.pdf  # Grading rubric
-└── README.md             # This file
+├── paper/                           # Paper source files
+│   ├── main.tex                     # LaTeX source (compile with XeLaTeX)
+│   ├── references.bib               # BibTeX bibliography
+│   └── OM_cover.pdf                 # Course paper cover page
+├── materials/                       # Course materials
+│   ├── 01. Term Paper Requirement.pdf   # Assignment requirements
+│   ├── 02. OM Cases.pdf                 # Case study materials
+│   ├── 03. 课程论文封面模板.docx         # Cover page template
+│   └── 04. Paper Grading Criteria.pdf   # Grading rubric
+├── README.md                        # This file
+├── LICENSE                          # MIT License
+└── .gitignore                       # Git ignore rules
 ```
 
 ### Quick Start
 
 ```bash
-# Compile with XeLaTeX (run twice to resolve cross-references)
+cd paper
 xelatex main.tex
 bibtex main
 xelatex main.tex
