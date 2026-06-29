@@ -1,0 +1,51 @@
+# LaTeX auxiliary files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.synctex(busy)
+*.synctex
+
+# BibTeX auxiliary files
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+
+# Index / Glossary
+*.idx
+*.ind
+*.ilg
+*.ist
+*.glo
+*.gls
+*.glg
+*.acn
+*.acr
+*.alg
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Compiled PDF (do not commit generated PDF)
+main.pdf
+
+# Temporary files
+*.tmp
+*.bak
+*.backup
