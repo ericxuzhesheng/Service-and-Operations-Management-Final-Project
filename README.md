@@ -21,7 +21,7 @@
 
 本项目是一篇面向**服务与运营管理**课程的期末研究论文，以 **Grill Rite** 电烤架公司的多仓库库存协调问题为案例，运用库存管理、风险池化、牛鞭效应等运营管理理论，结合量化数值分析，提出系统性改进方案。
 
-**核心结论：** 通过引入正式的 $(Q,R)$ 库存策略、季节性需求预测与风险池化机制，Grill Rite 的库存相关总成本预计可降低约 **23%**（约 \$355{,}000/年），同时显著改善客户服务水平。
+**核心结论：** 通过引入正式的 $(Q,R)$ 库存策略、季节性需求预测与风险池化机制，Grill Rite 的库存相关总成本预计可降低约 **23%**（约 $355,000/年），同时显著改善客户服务水平。
 
 ### 快速导航
 
@@ -134,7 +134,7 @@ xelatex main.tex
 
 This repository contains a final term paper for a **Service and Operations Management** course. Using the **Grill Rite** electric barbecue grill company as a case study, it applies inventory management, risk pooling, and bullwhip effect theories to diagnose multi-warehouse coordination failures and propose data-driven solutions with quantitative analysis.
 
-The main finding is that implementing formal $(Q,R)$ inventory policies, seasonal demand forecasting, and risk pooling mechanisms can reduce Grill Rite's total inventory-related costs by approximately **23%** (roughly \$355{,}000 annually) while significantly improving customer service levels.
+The main finding is that implementing formal $(Q,R)$ inventory policies, seasonal demand forecasting, and risk pooling mechanisms can reduce Grill Rite's total inventory-related costs by approximately **23%** (roughly $355,000 annually) while significantly improving customer service levels.
 
 ### Navigation
 
